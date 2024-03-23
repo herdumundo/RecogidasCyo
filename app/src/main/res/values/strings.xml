@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recogidas V 2.0</string>
+    <string name="title_activity_sincro_estancia">sincro_estancia</string>
+    <string name="title_activity_movimientos">movimientos</string>
+    <string name="animales">ANIMALES CANTIDAD:</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">INGRESAR USUARIO</string>
+    <string name="prompt_password">INGRESAR CONTRASEÑA</string>
+    <string name="action_sign_in">INGRESAR</string>
+    <string name="action_sign_in_short">Login</string>
+
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login2">login2</string>
+    <string name="title_activity_busqueda_animal">busqueda_animal</string>
+</resources>

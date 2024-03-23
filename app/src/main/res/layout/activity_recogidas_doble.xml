@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recogidas">
+
+    <Spinner
+        android:id="@+id/cbox_tipo_recogida"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="255dp"
+        android:spinnerMode="dialog"
+        android:text="S" />
+
+    <Spinner
+        android:id="@+id/cbox_aviario"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="162dp"
+        android:spinnerMode="dialog"
+        android:text="S" />
+
+    <Spinner
+        android:id="@+id/cbox_estado"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="37dp"
+        android:spinnerMode="dialog"
+        android:text="S" />
+
+    <Button
+        android:id="@+id/btn_inicio"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:text="INICIAR PARADA"
+        android:textStyle="bold"
+         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="11dp"
+        android:text="REGISTRAR"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="643dp"
+        android:layout_marginEnd="14dp"
+        android:text="CANCELAR"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_fin"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="FINALIZAR PARADA"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="6dp"
+        android:text="ESTADO"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="11dp"
+        android:text="AVIARIO"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="6dp"
+        android:text="TIPO DE RECOGIDA"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="409dp"
+        android:text="VELOCIDAD RECOGIDA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="12dp"
+        android:text="VELOCIDAD MAQUINA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_velocidad"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_inicio"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="421dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_velocidadMaq"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_comentario"
+        android:layout_width="401dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="COMENTARIO"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

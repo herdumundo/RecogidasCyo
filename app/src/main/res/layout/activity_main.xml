@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+             android:text="PENDIENTES DE ENVIO"
+            android:textColor="@color/md_theme_dark_surface"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_total"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:textColor="@color/azul_claro"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_below="@+id/btnDoble"
+        android:text="INFORMES VARIOS" />
+
+    <Button
+        android:id="@+id/btn_upd"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="DESCARGAR ACTUALIZACION" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:onClick="exportar_datos"
+        android:drawableLeft="@drawable/ic_action_export"
+        android:text="ENVIAR DATOS" />
+
+    <Button
+        android:id="@+id/btn_ir_registro"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:drawableLeft="@drawable/ic_action_go"
+        android:onClick="click_visor"
+        android:text="IR REGISTRO RECOGIDAS" />
+
+
+    <Button
+        android:id="@+id/btnDoble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_ir_registro"
+        android:drawableLeft="@drawable/ic_action_sincro"
+        android:text="IR REGISTRO DOBLE RECOGIDAS" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
